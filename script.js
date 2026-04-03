@@ -8,8 +8,8 @@ canvas.height = 600;
 let bird = {
   x: 50,
   y: 150,
-  width: 50,
-  height: 50,
+  width: 30,
+  height: 30,
   gravity: 0.6,
   lift: -12,
   velocity: 0
@@ -36,7 +36,7 @@ function draw() {
   ctx.fillStyle = "black";
   ctx.fillRect(bird.x, bird.y, bird.width, bird.height);
 
-  ctx.fillStyle = "white";
+  ctx.fillStyle = "green";
   ctx.fillRect(bird.x + 10, bird.y + 10, 15, 15); // eye
 
   // Pipes (smaller width)
