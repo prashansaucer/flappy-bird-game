@@ -15,7 +15,7 @@ let bird = {
   velocity: 0
 };
 
-let pipes = [10];
+let pipes = [100];
 let frame = 0;
 let score = 0;
 
