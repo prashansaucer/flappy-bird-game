@@ -56,7 +56,7 @@ function draw() {
   pipes.forEach((pipe, index) => {
     pipe.x -= 2;
 
-    ctx.fillStyle = "green";
+    ctx.fillStyle = "grey";
     ctx.fillRect(pipe.x, 0, pipe.width, pipe.top);
     ctx.fillRect(pipe.x, pipe.bottom, pipe.width, canvas.height);
 
@@ -66,7 +66,7 @@ function draw() {
       bird.x + bird.width > pipe.x &&
       (bird.y < pipe.top || bird.y + bird.height > pipe.bottom)
     ) {
-      alert("Game Over! Score: " + score);
+      alert("Over! Score: " + score);
       document.location.reload();
     }
 
