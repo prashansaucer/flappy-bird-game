@@ -33,7 +33,7 @@ function draw() {
   bird.y += bird.velocity;
 
   // 🐦 Draw Bird (Black & White)
-  ctx.fillStyle = "black";
+  ctx.fillStyle = "orange";
   ctx.fillRect(bird.x, bird.y, bird.width, bird.height);
 
   ctx.fillStyle = "green";
