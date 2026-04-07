@@ -4,7 +4,7 @@ const ctx = canvas.getContext("2d");
 canvas.width = 400;
 canvas.height = 600;
 
-// 🐦 Bigger Bird (Black & White)
+// 🐦 Bigger Bird (Black)
 let bird = {
   x: 50,
   y: 150,
