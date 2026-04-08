@@ -41,7 +41,7 @@ function draw() {
 
   // Pipes (smaller width)
   if (frame % 90 === 0) {
-    let gap = 140;
+    let gap = 150;
     let top = Math.random() * 250;
 
     pipes.push({
