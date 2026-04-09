@@ -7,7 +7,7 @@ canvas.height = 600;
 // 🐦 Bigger Bird (Black)
 let bird = {
   x: 50,
-  y: 150,
+  y: 140,
   width: 30,
   height: 30,
   gravity: 0.5,
