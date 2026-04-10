@@ -56,7 +56,7 @@ function draw() {
   pipes.forEach((pipe, index) => {
     pipe.x -= 2;
 
-    ctx.fillStyle = "grey";
+    ctx.fillStyle = "blue";
     ctx.fillRect(pipe.x, 0, pipe.width, pipe.top);
     ctx.fillRect(pipe.x, pipe.bottom, pipe.width, canvas.height);
 
